@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocketChat | Simple chat by Roberto Romagnoli</title>
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<body>
+    <div class="container" id="container">
+    
+        <!-- Storico messaggi-->
+        <div id="history">
+            <!-- HTML autogenerato -->
+        </div>
+    
+        <!-- Messaggi in input -->
+        <form id="input-box">
+            <input type="text" id="message" placeholder="Inserisci il tuo messaggio...">
+            <button type="submit" id="send-btn">Invia</button>
+        </form>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/chat.js"></script>   
+</body>
+</html>
